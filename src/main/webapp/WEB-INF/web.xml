@@ -16,7 +16,8 @@
 		<param-name>resteasy.resources</param-name>
 		<param-value>
 		    br.edu.fcv.rest.MessageRestService,
-		    br.edu.fcv.rest.JSONService
+		    br.edu.fcv.rest.JSONService,
+		    br.edu.fcv.rest.LembreteRest
 		</param-value>
 	</context-param>
 
