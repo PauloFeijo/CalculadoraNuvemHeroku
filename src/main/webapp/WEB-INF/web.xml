@@ -14,7 +14,10 @@
 
 	<context-param>
 		<param-name>resteasy.resources</param-name>
-		<param-value>br.edu.fcv.rest.MessageRestService</param-value>
+		<param-value>
+		    br.edu.fcv.rest.MessageRestService,
+		    br.edu.fcv.rest.JSONService
+		</param-value>
 	</context-param>
 
 	<listener>
