@@ -20,7 +20,6 @@ public class JSONService {
 		Produto produto = new Produto();
 		produto.setNome("Moto X - Android");
 		produto.setQuantidade(10);
-
 		return produto;
 
 	}
