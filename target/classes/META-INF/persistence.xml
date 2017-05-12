@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://java.sun.com/xml/ns/persistence
+http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd" >
+	<persistence-unit name="config-entidades">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>br.edu.fcv.model.Lembrete</class>
+		<properties>
+		 	<property name="hibernate.bytecode.use_reflection_optimizer" value="false"/>
+
+      	    <property name="hibernate.connection.driver_class" value="org.postgresql.Driver" />
+       	  	<property name="hibernate.connection.username" value="rhnngamdkfrlwl"/>
+      	  	<property name="hibernate.connection.password" value="cf7bf956dc7f1c44ec7d8ec4a372263d949ef69000f1fd1d19ab9f38db4f43f5"/>
+      	 	<property name="hibernate.connection.url" value="jdbc:postgresql://ec2-54-225-118-55.compute-1.amazonaws.com:5432/dd0q1ujbf4fntd?username=rhnngamdkfrlwl&amp;password=cf7bf956dc7f1c44ec7d8ec4a372263d949ef69000f1fd1d19ab9f38db4f43f5&amp;ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory"/>
+
+			<property name="hibernate.archive.autodetection" value="class"/>
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+
+		</properties>
+	</persistence-unit>
+</persistence>

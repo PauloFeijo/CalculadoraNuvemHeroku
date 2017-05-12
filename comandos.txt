@@ -1,0 +1,31 @@
+"	heroku login (faz login no heroku)
+"	heroku create (cria um vinculo heroku/git com aquela pasta)
+"	heroku open (abrir o a aplicação)
+"	heroku logs --tail ou heroku logs(exibe logs)
+"	heroku ps (exibe quantos containers estão sendo executados)--> dyno 
+"	heroku ps:scale web=1 (sobe um container para executar as aplicações)
+
+"	heroku git:clone -a nomeDoRepositorio(obter um repositório já existente)
+"	heroku git:remote -a newname (renomeia o repositório)
+"	git init (criar um repositório)
+"	git add . (adiciona todas as alterações)
+"	git commit -m "Demo" ("envia" alteração para o repositório)
+"	git push heroku master (envia efetivamente a alteração para o repositório master)
+
+
+git init
+heroku git:remote -a calculadorapaulofeijo
+git add arquivo
+git commit -m "commit"
+git push heroku master
+heroku open
+.../rest/lembrete/listar
+
+
+
+
+
+wagnerfusca@gmail.com
+assunto: Aula2-Nuvem
+url do heroku
+anexo src
